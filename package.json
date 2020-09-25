@@ -1,0 +1,21 @@
+{
+  "name": "lips",
+  "version": "0.1.0",
+  "description": "Local Images Placeholders Service",
+  "keywords": ["Images", "Placeholder", "Api", "Service", "Local"],
+  "main": "index.js",
+  "scripts": {
+    "lips": "node index.js",
+    "lips-dev": "nodemon index.js"
+  },
+  "author": "Simentesempre <federico.portoghese@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "canvas": "^2.6.1",
+    "commander": "^6.1.0",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
