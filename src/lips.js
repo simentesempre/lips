@@ -24,7 +24,7 @@ class Lips {
         this.allowedTypes = allowedTypes,
         this.allowedHexColor = allowedHexColor,
         this.maxFontSize = maxFontSize,
-        this.font = 'font'       
+        this.font = font       
     }
 
     create = (w = this.defaultWidth, h = this.defaultHeight, tc = this.defaultTextColor, bc = this.defaultBgColor, t = this.defaultType , q = this.defaultQuality) => {
