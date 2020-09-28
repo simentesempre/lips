@@ -2,7 +2,7 @@
 Local Images Placeholder Service (v.0.2.0-beta.0)
 
 ```bash
-$ npm run lips
+$ npm start
 Lips ready at http://localhost:3001
 ```
 ```html
