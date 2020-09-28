@@ -52,18 +52,18 @@ Create a 400x300 pixel high quality webp
 ## Arguments
 
 ```js
-http://localhost:3001/lips/{width}/{height}/?tc={text_color}&bc={background_color}&t={type}&q={quality}
+http://localhost:3001/lips/{w}/{h}/?tc={text_color}&bc={background_color}&t={type}&q={quality}
 ```
 
 Params:
-- width: in pixel, must be higher than 0. Default: 200
-- height: in pixel, must be higher than 0. Default: Same as width
+- w: width in pixel, must be higher than 0. Default: 200
+- h: height in pixel, must be higher than 0. Default: Same as width
 
 Query
-- text_color: valid Html color or Hex color. Default: #333333
-- background_color: valid Html color or Hex color. Default: #eeeeee
-- type: valide MIME image type, available formats are 'jpeg', 'png', 'webp'. Default: 'jpeg'
-- quality: jpeg and webp compression, valid values are between 0 and 1. Default: 0.65
+- tc: text color, valid Html color or Hex color. Default: #333333
+- bc: background color, valid Html color or Hex color. Default: #eeeeee
+- t: type, valide MIME image type, available formats are 'jpeg', 'png', 'webp'. Default: 'jpeg'
+- q: image quality, jpeg and webp compression, valid values are between 0 and 1. Default: 0.65
 
 ## Options
 
