@@ -1,5 +1,5 @@
 # LIPS
-Local Images Placeholder Service
+Local Images Placeholder Service (v.0.2.0-beta.0)
 
 ```bash
 $ npm run lips
