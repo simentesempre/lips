@@ -1,12 +1,13 @@
 {
-  "name": "lips",
-  "version": "0.1.0",
+  "name": "@simentesempre/lips",
+  "version": "0.2.0-beta.0",
   "description": "Local Images Placeholders Service",
   "keywords": ["Images", "Placeholder", "Api", "Service", "Local"],
-  "main": "index.js",
+  "main": "src/lips.js",
   "scripts": {
-    "lips": "node index.js",
-    "lips-dev": "nodemon index.js"
+    "start": "npm run start service",
+    "service": "node src/service/service.js",
+    "service-dev": "nodemon src/service/service.js"
   },
   "author": "Simentesempre <federico.portoghese@gmail.com>",
   "license": "ISC",
