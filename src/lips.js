@@ -1,4 +1,5 @@
 const { createCanvas } = require('canvas')
+const cLogger = require('./utils/cLogger')
 
 class Lips {
     constructor(
@@ -40,12 +41,14 @@ class Lips {
             ctx.fillText(`${w}x${h}`, w/2, h/2)
             const data = canvas.toDataURL(t, q)
             if(!element) {
-                return {
+                const response = {
                     data, 
                     type: t,
                     status,
                     error
                 }
+                cLogger(['Image created', response])
+                return response
             } else {
                 return this.createElement(args = this.defaults)
             }
