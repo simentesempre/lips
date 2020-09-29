@@ -70,9 +70,9 @@ Query
 - -p, --port: Set the local port (Default to 3001)
 
 ```bash
-npm run server -- -p 1337
+npm run service -- -p 1337
 ```
 
 ## License
 
-[ISC](LICENSE)
+[ISC](https://opensource.org/licenses/ISC)
