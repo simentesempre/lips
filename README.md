@@ -75,4 +75,4 @@ npm run service -- -p 1337
 
 ## License
 
-[https://opensource.org/licenses/ISC](LICENSE)
+[ISC](https://opensource.org/licenses/ISC)
